@@ -1,12 +1,19 @@
 .titulo-pagina {
-    font-family: Cambria, cursive;
-    margin: 50%, auto;
-    padding: 10px ;
-    width: 20px;
-    font-size: 40px ;
-    font-weight: 20;
-    color: saddlebrown;
+    font-family: 'Sweet Sans Pro Regular';
+    text-align: center;
+    font-size: 80px ;
+    font-weight: 80;
+    color: rgb(58, 95, 197);
+    src: local('Sweet Sans Pro Regular'), url('SweetSansProRegular.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'Sweet Sans Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sweet Sans Pro Regular'), url('SweetSansProRegular.woff') format('woff');
+    }
+    
 .menu-navegação {
     width: 80%;
     margin: auto;
