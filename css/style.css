@@ -1,22 +1,23 @@
 .titulo-pagina {
-    font-family: 'Sweet Sans Pro Regular';
+    font-family: 'Georgia';
     text-align: center;
-    font-size: 80px ;
+    font-size: 100px ;
     font-weight: 80;
-    color: rgb(58, 95, 197);
-    src: local('Sweet Sans Pro Regular'), url('SweetSansProRegular.woff') format('woff');
+    color: rgb(33, 58, 124);
+    src: local('Georgia'), url('Georgia');
 }
 
 @font-face {
-    font-family: 'Sweet Sans Pro Regular';
-    font-style: normal;
+    font-family: 'Georgia';
+    font-style:normal;
     font-weight: normal;
-    src: local('Sweet Sans Pro Regular'), url('SweetSansProRegular.woff') format('woff');
+    src: local('Georgia'), url('Georgia');
     }
     
 .menu-navegação {
+    font-size: medium;
     width: 80%;
-    margin: auto;
+    margin:auto;
 
 }
 
@@ -24,23 +25,32 @@ ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    font-size:initial;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+  
 
 }
 
 li {
-    padding: 20px;
+    padding: 1px;
 
 }
 .menu-navegação a{
-    text-decoration: none;
+    text-decoration:none;
 
 }
 .menu-navegação {
-    border-style: solid;
-    border-color: #92a8d1;
+    border-style: none;
+    border-color: #96afdf;
   }
   
   div {
-    border-style: solid;
+    border-style: none;
     border-color: #92a8d1;
   }
+  
+  body {
+   
+    background: linear-gradient(#ebecf0, #e3e3ec); 
+}
