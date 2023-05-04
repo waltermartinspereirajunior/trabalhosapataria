@@ -1,56 +1,94 @@
 .titulo-pagina {
-    font-family: 'Georgia';
+    font-family: unset;
     text-align: center;
-    font-size: 100px ;
-    font-weight: 80;
+    font-size: 150px;
+    font-weight: 400;
     color: rgb(33, 58, 124);
-    src: local('Georgia'), url('Georgia');
+    margin: auto;
+
 }
 
-@font-face {
-    font-family: 'Georgia';
-    font-style:normal;
-    font-weight: normal;
-    src: local('Georgia'), url('Georgia');
-    }
-    
 .menu-navegação {
-    font-size: medium;
-    width: 80%;
-    margin:auto;
-
+    display: flex;
+    font-size: larger;
+    background-color: rgb(206, 208, 211);
+    border-style: groove;
+    border-color: #e5e8ec;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
 ul {
     display: flex;
-    justify-content: space-evenly;
     list-style: none;
-    font-size:initial;
-    font-family:Georgia, 'Times New Roman', Times, serif;
- 
-  
+    font-size: large;
+    justify-content: space-between;
 
 }
 
 li {
     padding: 1px;
+    font-family: :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    margin: auto;
 
 }
-.menu-navegação a{
-    text-decoration:none;
+
+.menu-navegação a {
+    text-decoration: none;
+    font-family: unset;
+    font-size: smaller;
 
 }
-.menu-navegação {
-    border-style: none;
-    border-color: #96afdf;
-  }
-  
-  div {
-    border-style: none;
-    border-color: #92a8d1;
-  }
-  
-  body {
-   
-    background: linear-gradient(#ebecf0, #e3e3ec); 
+
+.subtitulo-pagina {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    font-family: unset;
+    width: 95%;
+    margin: auto;
+    background-color: rgb(206, 208, 211);
+    justify-content: center;
+    border-style: groove;
+
 }
+
+.sapatos {
+    display: flex;
+    padding: 6px;
+    text-decoration: none;
+    font-family: unset;
+    width: 97%;
+    margin: auto;
+    background-color: rgb(206, 208, 211);
+    justify-content: left;
+    border-style: groove;
+}
+
+.cintos {
+    display: flex;
+    padding: 6px;
+    text-decoration: none;
+    font-family: unset;
+    width: 97%;
+    margin: auto;
+    background-color: rgb(206, 208, 211);
+    justify-content: left;
+    border-style: groove;
+}
+
+.bolsas{
+    display:flex;
+        padding: 6px;
+        text-decoration:none;
+        font-family:unset;
+        width: 97%;
+        margin:auto;
+        background-color: rgb(206, 208, 211);
+        justify-content:left;
+        border-style:groove;}
+
+.main
+{}
+    
