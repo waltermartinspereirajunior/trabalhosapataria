@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title class="title">MAISON WM - PERFECT SHOES</title>
+</head>
+<body>
+    <header>
+        <hr>
+        <hr>
+        <img src="https://nadafragil.com.br/wp-content/uploads/2014/05/mulher-bonita-em-uma-aventura-com-um-carro-esporte_102671-5079.jpg" class="banner">
+        <img src="https://nadafragil.com.br/wp-content/uploads/2014/05/retrato-de-caucasiano-menina-bonita-jovem-em-pretas-vindima-vestido-quem-senta-se-dentro-um-retro-car_113323-72.jpg" class="banner">
+        <img src="https://nadafragil.com.br/wp-content/uploads/2014/05/meninas-em-scooter_1303-3955.jpg" class="banner">
+        <hr>
+        <hr>
+        <nav class="menu-navegação">
+            <ul>
+                <li><a href="https://www.youtube.com/5amarcha" style="font-family:Georgia">HOME</a></li>
+                <li><a href="https://www.uol.com.br" style="font-family:Georgia">QUEM SOMOS</a></li>
+                <li><a href="https://www.ig.com.br" style="font-family:Georgia">CONTATO</a></li>
+            </ul>
+        </nav>
+<hr>
+<hr>
+        <h1 class="titulo-pagina" ><b>MAISON WM</b></h1>
+        <hr>
+        <hr>
+        <h1 class="subtitulo-pagina" style="text-align:center" style="font-family:Arial, Helvetica, sans-serif;font-weight:500;font: size 90px"> Você vai se surpreender com o que a MAISON WM elaborou para você.</h1>
+            
+    </header>

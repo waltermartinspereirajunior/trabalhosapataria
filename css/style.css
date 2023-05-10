@@ -4,7 +4,7 @@
     font-size: 150px;
     font-weight: 400;
     color: rgb(33, 58, 124);
-    margin: auto;
+    margin:auto;
 
 }
 
@@ -14,7 +14,7 @@
     background-color: rgb(206, 208, 211);
     border-style: groove;
     border-color: #e5e8ec;
-    text-align: center;
+    text-align:justify;
     justify-content: space-evenly;
 }
 
@@ -22,22 +22,25 @@ ul {
     display: flex;
     list-style: none;
     font-size: large;
-    justify-content: space-between;
+    justify-content:space-around;
 
 }
 
 li {
-    padding: 1px;
+    padding: 10px;
     font-family: :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 80%;
+    width: 60%;
     margin: auto;
 
 }
 
 .menu-navegação a {
+    display: flex;
+    padding: 10px;
     text-decoration: none;
     font-family: unset;
     font-size: smaller;
+    width: 70%;
 
 }
 
@@ -46,7 +49,7 @@ li {
     padding: 10px;
     text-decoration: none;
     font-family: unset;
-    width: 95%;
+    width: 70%;
     margin: auto;
     background-color: rgb(206, 208, 211);
     justify-content: center;
@@ -59,7 +62,7 @@ li {
     padding: 6px;
     text-decoration: none;
     font-family: unset;
-    width: 97%;
+    width: 100%;
     margin: auto;
     background-color: rgb(206, 208, 211);
     justify-content: left;
@@ -71,7 +74,7 @@ li {
     padding: 6px;
     text-decoration: none;
     font-family: unset;
-    width: 97%;
+    width: 100%;
     margin: auto;
     background-color: rgb(206, 208, 211);
     justify-content: left;
@@ -83,12 +86,10 @@ li {
         padding: 6px;
         text-decoration:none;
         font-family:unset;
-        width: 97%;
+        width: 100%;
         margin:auto;
         background-color: rgb(206, 208, 211);
         justify-content:left;
         border-style:groove;}
 
-.main
-{}
     
