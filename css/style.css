@@ -1,5 +1,9 @@
+:root {
+    --fonte-principal: 'Georgia', sans-serif;
+}
+
 .titulo-pagina {
-    font-family: unset;
+    font-family: var(--fonte-principal);
     text-align: center;
     font-size: 150px;
     font-weight: 400;
@@ -27,9 +31,12 @@ ul {
 }
 
 li {
-    padding: 10px;
-    font-family: :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 60%;
+
+    
+    padding: 1px;
+    font-family:var(--fonte-principal);
+    width: 80%;
+
     margin: auto;
 
 }
@@ -38,7 +45,7 @@ li {
     display: flex;
     padding: 10px;
     text-decoration: none;
-    font-family: unset;
+    font-family: var(--fonte-principal);
     font-size: smaller;
     width: 70%;
 
@@ -48,8 +55,8 @@ li {
     display: flex;
     padding: 10px;
     text-decoration: none;
-    font-family: unset;
-    width: 70%;
+    font-family: var(--fonte-principal);
+    width: 95%;
     margin: auto;
     background-color: rgb(206, 208, 211);
     justify-content: center;
@@ -61,8 +68,8 @@ li {
     display: flex;
     padding: 6px;
     text-decoration: none;
-    font-family: unset;
-    width: 100%;
+    font-family: var(--fonte-principal);
+    width: 97%;
     margin: auto;
     background-color: rgb(206, 208, 211);
     justify-content: left;
@@ -73,8 +80,8 @@ li {
     display: flex;
     padding: 6px;
     text-decoration: none;
-    font-family: unset;
-    width: 100%;
+    font-family: var(--fonte-principal);
+    width: 97%;
     margin: auto;
     background-color: rgb(206, 208, 211);
     justify-content: left;
@@ -85,11 +92,38 @@ li {
     display:flex;
         padding: 6px;
         text-decoration:none;
-        font-family:unset;
-        width: 100%;
+        font-family:var(--fonte-principal);
+        width: 97%;
         margin:auto;
         background-color: rgb(206, 208, 211);
         justify-content:left;
         border-style:groove;}
+
+.footer  {
+    display:flex;
+    padding: 3px;
+    text-decoration:none;
+    font-family:var(--fonte-principal);
+    width: 97%;
+    margin:auto;
+    border-style:groove;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-color: rgb(206, 208, 211);
+}
+
+.footer .address p {
+    display: flex;
+    font-size:small
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+            
+
+
+
 
     
