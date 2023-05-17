@@ -8,7 +8,7 @@
     font-size: 150px;
     font-weight: 400;
     color: rgb(33, 58, 124);
-    margin: auto;
+    margin:auto;
 
 }
 
@@ -18,7 +18,7 @@
     background-color: rgb(206, 208, 211);
     border-style: groove;
     border-color: #e5e8ec;
-    text-align: center;
+    text-align:justify;
     justify-content: space-evenly;
 }
 
@@ -26,22 +26,28 @@ ul {
     display: flex;
     list-style: none;
     font-size: large;
-    justify-content: space-between;
+    justify-content:space-around;
 
 }
 
 li {
+
+    
     padding: 1px;
     font-family:var(--fonte-principal);
     width: 80%;
+
     margin: auto;
 
 }
 
 .menu-navegação a {
+    display: flex;
+    padding: 10px;
     text-decoration: none;
     font-family: var(--fonte-principal);
     font-size: smaller;
+    width: 70%;
 
 }
 
@@ -116,6 +122,7 @@ li {
    
 }
             
+
 
 
 
