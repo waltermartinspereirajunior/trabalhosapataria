@@ -66,6 +66,7 @@ li {
 
 .sapatos {
     display: flex;
+    flex-wrap: nowrap;
     padding: 6px;
     text-decoration: none;
     font-family: var(--fonte-principal);
@@ -78,6 +79,7 @@ li {
 
 .cintos {
     display: flex;
+    flex-wrap: nowrap;
     padding: 6px;
     text-decoration: none;
     font-family: var(--fonte-principal);
@@ -91,6 +93,7 @@ li {
 .bolsas{
     display:flex;
         padding: 6px;
+        flex-wrap: nowrap;
         text-decoration:none;
         font-family:var(--fonte-principal);
         width: 97%;
@@ -122,8 +125,23 @@ li {
    
 }
             
+    .principal1 {
+        display:flex;
+        flex-wrap: nowrap;
+        margin:auto;
+        text-align: center;
+        text-decoration:none;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        width: 97%;
+    }
 
+div .produto img:hover
+{
 
+    height: 10px;
+    width: 10px;
+    background-color: brown;
+}
 
 
     
